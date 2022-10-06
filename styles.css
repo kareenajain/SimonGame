@@ -6,7 +6,7 @@ body {
 #level-title {
     font-family: 'Press Start 2P', cursive;
     color: #FEF2BF;
-    margin: 4%;
+    margin: 5%;
     font-size: 3rem;
 }
 
@@ -25,6 +25,10 @@ body {
     border-radius: 20%;
 }
 
+.game-over {
+    background-color: black;
+    opacity: 0.8;
+}
 .red {
     background-color: red;
 }
@@ -40,3 +44,10 @@ body {
 .yellow {
     background-color: yellow;
 }
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+    opacity: 0.8;
+}
+
